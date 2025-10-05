@@ -2,7 +2,7 @@
 
 ## Tool: **Kaboom**
 
-## Project: **X**
+## Project: Offline game where you start as a circle and you can kill other circles with a gun or maybe the body and you  can shoot these small circles out that act as bullets 
 
 ---
 
