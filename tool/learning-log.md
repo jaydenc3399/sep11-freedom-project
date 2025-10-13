@@ -72,11 +72,54 @@
 * One question that I have is that for the part where I use onLoad is there something else I can replace it for like a different code that will still make my code work?
 
 # Try next
-One thing taht I am going to try enxt that I did not do this time would be to maybe animate the character/sprite because in this one I took it a little slower and I only changed the positioning a little bit so next time I am going to learn how to animate the sprite.
+One thing that I am going to try enxt that I did not do this time would be to maybe animate the character/sprite because in this one I took it a little slower and I only changed the positioning a little bit so next time I am going to learn how to animate the sprite.
 
-### X/X/XX:
-* Text
+### 10/12/25
+* ## Kaboom (Animation)
+* [Kaboom Animation Video](https://www.youtube.com/watch?v=n-q0pKGhxyw)
+* I used this video to help me learn how to move the spirte using the arrows keys on the computer
 
+---
+
+
+## Tinkering On pickcode
+On pickcode I tried to add what I learned in the video and some help online to create a command where it would move my sprite based on the arrow i click
+
+```js
+onKeyDown("left", () => {
+            player.move(-SPEED, 0);
+        });
+
+        onKeyDown("right", () => {
+            player.move(SPEED, 0);
+        });
+
+        onKeyDown("up", () => {
+            player.move(0, -SPEED);
+        });
+
+        onKeyDown("down", () => {
+            player.move(0, SPEED);
+        });
+```
+* My code looked like this and the speed inside the parenthesis corresponds to the varaible tht I named whcih controls the speed
+* This code allows me to click or hold the arrow keys making my sprite move in the direction that I desire
+
+--- 
+
+### Another thing tht I tried to do was remove the number 0 in the parenthesis and see if it would change anything, it looked like this 
+
+```js
+onKeyDown("down", () => {
+            player.move(, SPEED);
+        });
+```
+
+---
+
+### This caused my code to have a error on pickcode and I was not able to see anything on my screen except a error message so I placed it back
+
+## Try next: Something that I would love to try next would be to animate the spirte where it can create some affects like a kaboom or a explosion and see how I can incoperate this into my game later on for the freedom project.
 
 <!--
 * Links you used today (websites, videos, etc)
