@@ -116,6 +116,7 @@ onKeyDown("down", () => {
 ```
 
 ---
+### This caused my code to have a error on pickcode and I was not able to see anything on my screen except a error message so I placed it back
 
 After thinking for a little bit on what I could change I looked at how I was only able to control the the sprite using the keys so I wondered can I change it to a specific key that will activate the sprite to move in a certain direction. So I tried this out in the code 
 
@@ -136,10 +137,10 @@ After thinking for a little bit on what I could change I looked at how I was onl
             player.move(0, SPEED);
         });
 ```
-After trying this I pressed the keys and it allowed the sprite to move in the direction I wanted by clicking that key I designated the direction to move to. 
-### This caused my code to have a error on pickcode and I was not able to see anything on my screen except a error message so I placed it back
+After trying this I pressed the keys and it allowed the sprite to move in the direction I wanted by clicking that key I designated the direction to move to. Which helped me realize I dont have to just code it directly to function on the arrows. 
 
-## Try next: Something that I would love to try next would be to animate the spirte where it can create some affects like a kaboom or a explosion and see how I can incoperate this into my game later on for the freedom project.
+
+## Try next: Something that I would love to try next would be to animate the spirte where it can create some affects like a kaboom or a explosion and see how I can incoperate this into my game later on for the freedom project. Another thing I will try next is maybe trying to make it so that the letters like the ones that control the sprites direction if I can assign a second key to it so that it will respond to any of the two keys I assigned to it. 
 
 
 
