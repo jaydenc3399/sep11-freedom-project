@@ -74,7 +74,7 @@
 # Try next
 One thing that I am going to try enxt that I did not do this time would be to maybe animate the character/sprite because in this one I took it a little slower and I only changed the positioning a little bit so next time I am going to learn how to animate the sprite.
 
-### 10/12/25
+### 10/27/25
 * ## Kaboom (Animation)
 * [Kaboom Animation Video](https://www.youtube.com/watch?v=n-q0pKGhxyw)
 * I used this video to help me learn how to move the spirte using the arrows keys on the computer
@@ -107,7 +107,7 @@ onKeyDown("left", () => {
 
 --- 
 
-### Another thing tht I tried to do was remove the number 0 in the parenthesis and see if it would change anything, it looked like this 
+### Another thing that I tried to do was remove the number 0 in the parenthesis and see if it would change anything, it looked like this 
 
 ```js
 onKeyDown("down", () => {
@@ -117,9 +117,31 @@ onKeyDown("down", () => {
 
 ---
 
+After thinking for a little bit on what I could change I looked at how I was only able to control the the sprite using the keys so I wondered can I change it to a specific key that will activate the sprite to move in a certain direction. So I tried this out in the code 
+
+```js
+ onKeyDown("s", () => {
+            player.move(-SPEED, 0);
+        });
+
+        onKeyDown("a", () => {
+            player.move(SPEED,0 );
+        });
+
+        onKeyDown("w", () => {
+            player.move(0, -SPEED);
+        });
+
+        onKeyDown("d", () => {
+            player.move(0, SPEED);
+        });
+```
+After trying this I pressed the keys and it allowed the sprite to move in the direction I wanted by clicking that key I designated the direction to move to. 
 ### This caused my code to have a error on pickcode and I was not able to see anything on my screen except a error message so I placed it back
 
 ## Try next: Something that I would love to try next would be to animate the spirte where it can create some affects like a kaboom or a explosion and see how I can incoperate this into my game later on for the freedom project.
+
+
 
 <!--
 * Links you used today (websites, videos, etc)
