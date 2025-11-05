@@ -14,7 +14,8 @@ Right now on the engineering design process I just finished defining the problem
 ## Time managment 
 As of now in junior year workloads pile up and I joined the basketball team and it is important that I keep a schedule because practitces are really often and they are usually at a really late time so it leaves me not much time to do my homework and also do other work such as the freedom project. Right now I have dedicated some time to the freedom project and researching some ideas after I finished all my work I spend around 5 minutes a day just brainstroming a little bit despite all the work that I have. However I also try to leave some free time for myself in the end to just relax because it is importnat that once in a while you get a break and relax because putting so much stress on yourself is not good. Just creating a schdeule that you can follow everyday and making sure that you finish everything and that you put the work with deadlines first and also leaving some time to relax and process everything. 
 
-# 
+# Hardwork/Perserverance
+As work gets harder for me I feel like I just want to get my work done and just finish with it. Sometimes I dont even feel like doing the work but 
 [Next](entry02.md)
 
 [Home](../README.md)
