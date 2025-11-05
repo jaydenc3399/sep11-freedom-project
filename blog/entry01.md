@@ -6,6 +6,15 @@ The freedom project tool that I am doing for this year is kaboom, Which uses jav
 
 # Engineering Design Process 
 Right now on the engineering design process I just finished defining the problem which is trying to develop this offline game where people who enjoy it and not play the game once and just get bored of it, trying to add like some cool effects to it so that it looks more intresting and cool, while I finished defining the problem I moved onto the researching of the problem, trying to find ways online, like features that will make my game stand out, adding things in my game that makes online games intresting and interactive. I have been reading a [article](https://www.pluralsight.com/resources/blog/software-development/character-controls-camera-3cs-game-development#:~:text=What%20are%20the%20first%20things,Character%2C%20Controls%2C%20Camera'.) on game developement to help me create this.  
+
+# Skills
+
+---
+
+## Time managment 
+As of now in junior year workloads pile up and I joined the basketball team and it is important that I keep a schedule because practitces are really often and they are usually at a really late time so it leaves me not much time to do my homework and also do other work such as the freedom project. Right now I have dedicated some time to the freedom project and researching some ideas after I finished all my work I spend around 5 minutes a day just brainstroming a little bit despite all the work that I have. However I also try to leave some free time for myself in the end to just relax because it is importnat that once in a while you get a break and relax because putting so much stress on yourself is not good. Just creating a schdeule that you can follow everyday and making sure that you finish everything and that you put the work with deadlines first and also leaving some time to relax and process everything. 
+
+# 
 [Next](entry02.md)
 
 [Home](../README.md)
