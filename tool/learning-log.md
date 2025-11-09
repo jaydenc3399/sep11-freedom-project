@@ -143,7 +143,7 @@ After trying this I pressed the keys and it allowed the sprite to move in the di
 ## Try next: Something that I would love to try next would be to animate the spirte where it can create some affects like a kaboom or a explosion and see how I can incoperate this into my game later on for the freedom project. Another thing I will try next is maybe trying to make it so that the letters like the ones that control the sprites direction if I can assign a second key to it so that it will respond to any of the two keys I assigned to it. 
 
 
-11/8 
+# 11/8 
 [Kaboom set gravity link](https://kaboomjs.com)
 * This time I learned something simple for now it was just `setting gravity` which bascially moved my sprite in the direction of down
 
