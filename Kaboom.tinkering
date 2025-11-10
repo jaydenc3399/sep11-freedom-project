@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://unpkg.com/kaboom@3000.0.1/dist/kaboom.js"></script>
+</head>
+<body>
+<script>
+    kaboom();
+
+    loadSprite("bean", "bean.png");
+    setGravity(-2400) 
+    onLoad(() => {
+        const player = add([
+            sprite("bean"),
+            pos(150, 80),
+            area(),
+            body(),
+            color(255, 0, 0),
+        ]);
+
+        const SPEED = 200; 
+
+        onKeyDown("left", () => {
+            player.move(-SPEED, 0);
+        });
+
+        onKeyDown("right", () => {
+            player.move(SPEED,0 );
+        });
+
+        onKeyDown("up", () => {
+            player.move(0, -SPEED);
+        });
+
+        onKeyDown("down", () => {
+            player.move(0, SPEED);
+        });
+    });
+    onKeyPress("d", (bean) => {
+    // .jump() is provided by the body() component
+    player.jump(bean)
+})
+ 
+</script>
+</body>
+</html>
 
