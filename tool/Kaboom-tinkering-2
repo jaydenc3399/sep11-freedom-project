@@ -1,1 +1,56 @@
+import kaboom from "kaboom";
 
+kaboom();
+
+loadSprite("bomb", "sprites/bomb.png"); // Assuming you have a bomb sprite
+loadSound("explosion", "sounds/explosion.mp3"); // Assuming you have an explosion sound
+
+scene("game", () => {
+    // Add a bomb object
+    const bomb = add([
+        sprite("bomb"),
+        pos(width() / 2, height() / 2),
+        area(),
+        "bomb", // Tag for easy reference
+    ]);
+
+    // Function to create an explosion effect
+    function kaboomEffect(p) {
+        // Play explosion sound
+        play("explosion", { volume: 0.5 });
+
+        // Spawn multiple particles
+        for (let i = 0; i < 20; i++) {
+            const angle = rand(0, 360); // Random angle for particle direction
+            const speed = rand(50, 200); // Random speed for particles
+
+            add([
+                rect(rand(5, 15), rand(5, 15)), // Random size for particles
+                color(1, rand(0.5, 1), 0), // Orange/yellowish color
+                pos(p),
+                rotate(rand(0, 360)),
+                lifespan(0.5, { fade: 0.5 }), // Fade out and destroy after 0.5 seconds
+                move(angle, speed), // Move in a random direction
+                scale(1),
+                {
+                    update() {
+                        // Optional: Shrink particles over time
+                        this.scale.x -= dt() * 2;
+                        this.scale.y -= dt() * 2;
+                        if (this.scale.x <= 0) {
+                            destroy(this);
+                        }
+                    },
+                },
+            ]);
+        }
+    }
+
+    // Trigger the kaboom effect on bomb click
+    onClick("bomb", () => {
+        kaboomEffect(bomb.pos);
+        destroy(bomb); // Remove the bomb after it explodes
+    });
+});
+
+go("game");
