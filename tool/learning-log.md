@@ -2,7 +2,7 @@
 
 ## Tool: **Kaboom**
 
-## Project: Offline game where you start as a circle and you can kill other circles with a gun or maybe the body and you  can shoot these small circles out that act as bullets 
+## Project: Offline game where you start as a circle and you can kill other circles with a gun or maybe the body and you  can shoot these small circles out that act as bullets
 
 ---
 
@@ -105,9 +105,9 @@ onKeyDown("left", () => {
 * My code looked like this and the speed inside the parenthesis corresponds to the varaible tht I named whcih controls the speed
 * This code allows me to click or hold the arrow keys making my sprite move in the direction that I desire
 
---- 
+---
 
-### Another thing that I tried to do was remove the number 0 in the parenthesis and see if it would change anything, it looked like this 
+### Another thing that I tried to do was remove the number 0 in the parenthesis and see if it would change anything, it looked like this
 
 ```js
 onKeyDown("down", () => {
@@ -118,7 +118,7 @@ onKeyDown("down", () => {
 ---
 ### This caused my code to have a error on pickcode and I was not able to see anything on my screen except a error message so I placed it back
 
-After thinking for a little bit on what I could change I looked at how I was only able to control the the sprite using the keys so I wondered can I change it to a specific key that will activate the sprite to move in a certain direction. So I tried this out in the code 
+After thinking for a little bit on what I could change I looked at how I was only able to control the the sprite using the keys so I wondered can I change it to a specific key that will activate the sprite to move in a certain direction. So I tried this out in the code
 
 ```js
  onKeyDown("s", () => {
@@ -137,10 +137,10 @@ After thinking for a little bit on what I could change I looked at how I was onl
             player.move(0, SPEED);
         });
 ```
-After trying this I pressed the keys and it allowed the sprite to move in the direction I wanted by clicking that key I designated the direction to move to. Which helped me realize I dont have to just code it directly to function on the arrows. 
+After trying this I pressed the keys and it allowed the sprite to move in the direction I wanted by clicking that key I designated the direction to move to. Which helped me realize I dont have to just code it directly to function on the arrows.
 
 
-## Try next: Something that I would love to try next would be to animate the spirte where it can create some affects like a kaboom or a explosion and see how I can incoperate this into my game later on for the freedom project. Another thing I will try next is maybe trying to make it so that the letters like the ones that control the sprites direction if I can assign a second key to it so that it will respond to any of the two keys I assigned to it. 
+## Try next: Something that I would love to try next would be to animate the spirte where it can create some affects like a kaboom or a explosion and see how I can incoperate this into my game later on for the freedom project. Another thing I will try next is maybe trying to make it so that the letters like the ones that control the sprites direction if I can assign a second key to it so that it will respond to any of the two keys I assigned to it.
 
 
 # 11/10
@@ -164,10 +164,27 @@ segravity(-2400)
 
 ---
 
+* I struggled to find some youtube videos to explode my sprite like when clicked so I went onto chat gpt to help me
+* I asked it to teach me how to explode a circle when clicked and this is what I amde from it
 
+```js
+function explode(origin) {
+  const numParticles = 1;
+  const radius = 8;
 
+  for (let i = 0; i < numParticles; i++) {
+    const angle = (2 * Math.PI * i) / numParticles;
+    const dir = vec2(Math.cos(angle), Math.sin(angle));
+```
+
+I changed around the `const numParticles` around to play with it a little bit and it changed the amount when clicked
+I also changed
+```js
+onKeyPress("space", () => {
+```
+I changed this one for the click so now when I press space it explodes into particles
 ## Try next
-Something that I will try next is maybe figuring out how to move the sprite left to right on its own because this setgravity only goes up and down and I already used both the positive and negative sign so I want to find a way now to make it go left or right instead of jsut up or down. 
+Something that I will try next is maybe figuring out how to move the sprite left to right on its own because this setgravity only goes up and down and I already used both the positive and negative sign so I want to find a way now to make it go left or right instead of jsut up or down. Also another thing would be to find a way to make this motion of exploding repeat like a loop or something.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
