@@ -186,7 +186,7 @@ I changed this one for the click so now when I press space it explodes into part
 ## Try next
 Something that I will try next is maybe figuring out how to move the sprite left to right on its own because this setgravity only goes up and down and I already used both the positive and negative sign so I want to find a way now to make it go left or right instead of jsut up or down. Also another thing would be to find a way to make this motion of exploding repeat like a loop or something.
 
-11/17
+# 11/17
 This time I tinkered trying to make a animation repeat for example i tested out the `set gravity` feature which just makes the sprite jump or in this case in my code it just makes the sprite go down. I wanted to find a way where I can loop this animation and make it repeat using kaboom js so I went onto this wesbite so learn how to. 
 [Stack overflow](https://stackoverflow.com/questions/71512546/how-can-i-make-kaboom-js-sprite-animations-repeat)
 I used this website to learn how to tinker and make my code loop 
@@ -214,6 +214,7 @@ This was the code, I took some of it from online to copy into my code so that I 
 I also tried to edit the number and it higher but I found that:
 
 * IF the number is too big and the wait time is too long, if the page cannot fit it then it just goes back to standard position after it reaches the end of the frame
+* Once the number is too big if it goes past the page the animation will not repeat and also it will return the sprite back to normal position and not move despite using such a high #
 
 # Try next:
 Something that I will do is experiment with more animations and the key aspects that will make my gaem more fun and create like a sound effect or a visual like explosion. Visual effects that will add some wow to my game and trying to learn more about the basics of kaboom also because I feel as if I have not fully masered the basics of kaboom yet. 
