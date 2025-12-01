@@ -222,6 +222,39 @@ Something that I will do is experiment with more animations and the key aspects 
 
 
 
+# 12/1 
+### This time I went online and tinkered in my [https://app.pickcode.io/project/cmg5b8cve009okj2ewj08abpy](pick code) with changing color particlecs. In the beginning it was hard for me to find examples and lessons on how to do this but after I went onto Ai and asked it to teach me. I went onto my code and edited this onto it. 
+
+```js
+function explode(origin) {
+    const numParticles = 20;
+
+    for (let i = 0; i < numParticles; i++) {
+        const angle = Math.random() * Math.PI * 2;
+        const dir = vec2(Math.cos(angle), Math.sin(angle));
+        const speed = Math.random() * 150 + 150;
+
+        add([
+            pos(origin.add(dir.scale(5))), 
+            circle(Math.random() * 6 + 4),
+            color(255, Math.random() * 155 + 100, 0),
+            area(),                     
+            move(dir.scale(speed)),
+            lifespan(1, { fade: 0.5 }),
+        ]);
+    }
+}
+```
+### * I addded the `color(255, Math.random() * 155 + 100, 0)
+### *  THis allows the particles to change colors to a orangish and yellow color
+### * In the code now we can see all the particles that split off from one single sprite when clicking D 
+### * `pos(origin.add(dir.scale(5))), ` 
+* I tinkered with this part changing the numbers and it casue the particles to be more spread out when d is clicked
+* The higher the number than the particles would be more spread out.
+* The lower the numnber the particles would be mroe compacted and less spread out
+
+### Try next
+#### Something that I want to try next is to maybe find a way to enlarge the particles so when I click they would be a little bigger and after the explosion the particles would dissapear and the blob or spirte would be gone since the game like they would die so thats one thing I will try to do next time. 
 
 
 
