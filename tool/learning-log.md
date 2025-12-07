@@ -223,7 +223,7 @@ Something that I will do is experiment with more animations and the key aspects 
 
 
 # 12/1 
-### This time I went online and tinkered in my [pick ocde]](https://app.pickcode.io/project/cmg5b8cve009okj2ewj08abpy) with changing color particlecs. In the beginning it was hard for me to find examples and lessons on how to do this but after I went onto Ai and asked it to teach me. I went onto my code and edited this onto it. 
+### This time I went online and tinkered in my [pick ocde](https://app.pickcode.io/project/cmg5b8cve009okj2ewj08abpy) with changing color particlecs. In the beginning it was hard for me to find examples and lessons on how to do this but after I went onto Ai and asked it to teach me. I went onto my code and edited this onto it. 
 
 ```js
 function explode(origin) {
