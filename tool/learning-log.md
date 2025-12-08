@@ -282,6 +282,10 @@ loadSound("boom", "https://kaboomjs.com/sounds/boom.mp3");
   });
 });
 ```
+* I was able to click D and there was a sound of effect that said like "boom"
+* I started exploring for some more sound effects that I would be able to add also and found a few different ones
+
+Try next: Something that I will try next time is maybe adding another sprite like a enemy and make them interact with one another like a shooting came where on contact one of them will explode on their own instead of me having to click the key d in order for the sprite to explode into particles. 
 
 ---
 * 
