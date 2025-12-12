@@ -256,7 +256,7 @@ function explode(origin) {
 ### Try next
 #### Something that I want to try next is to maybe find a way to enlarge the particles so when I click they would be a little bigger and after the explosion the particles would dissapear and the blob or spirte would be gone since the game like they would die so thats one thing I will try to do next time. 
 
-12/8
+# 12/8
 ## This time I tried to make it so when the sprite explodes into particles there will be like a sort of sound effect to it and I tinkered this into my pickcode and watched how it works. 
 * At first I imported the sprite and the song and sounf effect that I wanted
 * It looked like this
