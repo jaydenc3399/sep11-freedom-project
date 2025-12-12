@@ -284,8 +284,20 @@ loadSound("boom", "https://kaboomjs.com/sounds/boom.mp3");
 ```
 * I was able to click D and there was a sound of effect that said like "boom"
 * I started exploring for some more sound effects that I would be able to add also and found a few different ones
+```js
+onKeyDown("left",  () => player.move(-SPEED, 0));
+  onKeyDown("right", () => player.move(SPEED, 0));
+  onKeyDown("up",    () => player.move(0, -SPEED));
+  onKeyDown("down",  () => player.move(0, SPEED));
+```
+* This was the code that helped me to move the sprite around and by including this into the code it allows me to move it around
+* and by click d and changing it around I can make it on which key I want to explode the sprite
+* by click d more I can get more particles to appear also
 
-Try next: Something that I will try next time is maybe adding another sprite like a enemy and make them interact with one another like a shooting came where on contact one of them will explode on their own instead of me having to click the key d in order for the sprite to explode into particles. 
+---
+
+
+## Try next: Something that I will try next time is maybe adding another sprite like a enemy and make them interact with one another like a shooting came where on contact one of them will explode on their own instead of me having to click the key d in order for the sprite to explode into particles. 
 
 ---
 * 
