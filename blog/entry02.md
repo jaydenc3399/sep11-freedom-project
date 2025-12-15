@@ -47,7 +47,7 @@ If the number is too big and the wait time is too long, if the page cannot fit i
 
 ---
 
-Another part I tinkered with in my code was this part of my code which was already inside 
+Another part I tinkered with in my code was this part of my code which was already inside, I tried to change my expldoe function, the particles inside to be a different color and I was able to do it with this code. 
 
 ```js
 function explode(origin) {
@@ -69,6 +69,9 @@ function explode(origin) {
     }
 }
 ```
+---
+
+The part that I added into my code was ` I addded the `color(255, Math.random() * 155 + 100, 0)`. This allows the particles to change colors to a orangish and yellow color. In my opinion these were like small parts of code but they will be really cruical in the future when I am working on my freedom project because these small componets will come together to form the final product so doing this now is not a waste. 
 
 [Previous](entry01.md) | [Next](entry03.md)
 
