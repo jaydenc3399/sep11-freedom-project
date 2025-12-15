@@ -73,6 +73,11 @@ function explode(origin) {
 
 The part that I added into my code was ` I addded the `color(255, Math.random() * 155 + 100, 0)`. This allows the particles to change colors to a orangish and yellow color. In my opinion these were like small parts of code but they will be really cruical in the future when I am working on my freedom project because these small componets will come together to form the final product so doing this now is not a waste. 
 
+---
+
+# Engineering Design Process
+Right now I still feel that I am in the
+
 [Previous](entry01.md) | [Next](entry03.md)
 
 [Home](../README.md)
