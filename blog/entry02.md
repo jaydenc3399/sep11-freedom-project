@@ -1,7 +1,8 @@
 # Entry 2
 ##### 12/15/2025
 
-### Content 
+# Content 
+This is a few weeks after the first blog that I have written. Right now I am still tinkering with my code a few times a week and I am still processing my code snippets and thiings that I have changed in my code on github and my ide. I have been wathcing videos, looking at examples and sometimes asking the internet for examples and help. I am making sure that I know the basics of kaboom.js before I can mvoe onto anything else. I have moved a little bit into the features that I will need in my game like adding explosion feautures, effects, sounds and more. 
 
 [Previous](entry01.md) | [Next](entry03.md)
 
