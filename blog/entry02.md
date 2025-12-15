@@ -45,6 +45,31 @@ After testing out both positive and negative numbers this is the conclusion that
 
 If the number is too big and the wait time is too long, if the page cannot fit it then it just goes back to standard position after it reaches the end of the frame. Once the number is too big if it goes past the page the animation will not repeat and also it will return the sprite back to normal position and not move despite using such a high number. 
 
+---
+
+Another part I tinkered with in my code was this part of my code which was already inside 
+
+```js
+function explode(origin) {
+    const numParticles = 20;
+
+    for (let i = 0; i < numParticles; i++) {
+        const angle = Math.random() * Math.PI * 2;
+        const dir = vec2(Math.cos(angle), Math.sin(angle));
+        const speed = Math.random() * 150 + 150;
+
+        add([
+            pos(origin.add(dir.scale(5))), 
+            circle(Math.random() * 6 + 4),
+            color(255, Math.random() * 155 + 100, 0),
+            area(),                     
+            move(dir.scale(speed)),
+            lifespan(1, { fade: 0.5 }),
+        ]);
+    }
+}
+```
+
 [Previous](entry01.md) | [Next](entry03.md)
 
 [Home](../README.md)
