@@ -76,7 +76,7 @@ The part that I added into my code was ` I addded the `color(255, Math.random() 
 ---
 
 # Engineering Design Process
-Right now I still feel that I am in the
+Right now I still feel that I am still in the same spot right now which is still researching the problem and trying to find ways to build onto my product. 
 
 [Previous](entry01.md) | [Next](entry03.md)
 
