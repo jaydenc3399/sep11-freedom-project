@@ -76,7 +76,9 @@ The part that I added into my code was ` I addded the `color(255, Math.random() 
 ---
 
 # Engineering Design Process
-Right now I still feel that I am still in the same spot right now which is still researching the problem and trying to find ways to build onto my product. 
+Right now I still feel that I am still in the same spot right now which is still researching the problem and trying to find ways to build onto my product. Trying to find ways online and learning how to make these games more fun and intresting with cool animation effects and more to make the game more interactive and a little more addicting then your normal regular games. I would say im inching a little into brainstorming my possible solutions for my product right now. At the momment right now I have found a few animations like exploding and some sound effects to add but it still needs some more intresting ones so I a going to continue to research for more to better imporve the experience for users. 
+
+# 
 
 [Previous](entry01.md) | [Next](entry03.md)
 
