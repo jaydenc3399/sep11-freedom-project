@@ -83,7 +83,9 @@ Right now I still feel that I am still in the same spot right now which is still
 ---
 
 # Time mangment
-I feel as of right now
+I feel as of right now its a little harder to manage my time because with basketball practice and other extra cirruculars in school going on like clubs, NHS and really jsut trying to get a balance of everything has been a little difficult. But I would say having a well developed plan is the best thing to do like on a piece of paper I create like a list of things that I need to complete before the day ends when I get home after practice or after a club or something. I am able to check off one by one each task as it makes it easier to keep track of things because I feel like its really easily to lose track of something and you end up forgetting to do it. It happened to me last year for my spansih homework where I did not write it down and I ended up forgetting. So creating this schedule and knowing when to do what and when certain things are due were really important to me and making sure that there was some extra spare free time at the end for me to debrief and relax so that my whole day after I cam back from school would not be so stressful. Mainting this balanced scehdule and time and pushing things that are due sooner to a priority has become like natural to me now as I got used to it so I would say jsut getting into that flow and mentality with a scedhule because it helps you keep track of things so that you can turn it in on time and sometimes with my extra time I would brain storm the freedom project ideas and solutions that I could come up with in my head saving a little time for everything. 
+
+# 
 
 [Previous](entry01.md) | [Next](entry03.md)
 
