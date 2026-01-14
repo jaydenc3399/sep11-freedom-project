@@ -301,7 +301,39 @@ onKeyDown("left",  () => player.move(-SPEED, 0));
 
 ---
 
-1/ 13
+# 1/ 13
+On this I learned `onCollide` from a online website [website](https://kaplayjs.com/docs/api/ctx/onCollide/) 
+* This is bascially just when you want something to do a certain thing when something happens
+    * OnCollide when something hits with a certain object like a enemy in my game it will run the given code that is nputted
+    * For example
+```js
+player.onCollide("enemy", () => {
+  console.log("Ouch!");
+});
+```
+This was the code that I had which was bascially when a enemy would collide inside my game in the console it would return the word ouch
+
+---
+
+With this code I also tried to incoperate more things inside it so that when it runs there will be more actions 
+* In my code I added a conditional using onCollide
+
+```js
+player.onCollide("enemy", (enemy) => {
+    play("boom")
+ player.color = rgb(255, 0, 0)
+  wait(0.1, () => player.color = rgb())
+```
+
+---
+
+
+These were jsut some of the things I added into the Oncolldie function so that when it collides with the enemy there would be a sound effect and it would also change color
+
+## Do next:
+Something that I would do next is exploring more into animations like how to actaully start developing the game and peice things together, just planning out really what my game would look like and how to start it becasue I feel like I am just learning new code but applying that learning into my code could be a little challenging. 
+
+
 
 * 
 <!--
