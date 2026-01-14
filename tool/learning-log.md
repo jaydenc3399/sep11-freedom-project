@@ -300,6 +300,9 @@ onKeyDown("left",  () => player.move(-SPEED, 0));
 ## Try next: Something that I will try next time is maybe adding another sprite like a enemy and make them interact with one another like a shooting came where on contact one of them will explode on their own instead of me having to click the key d in order for the sprite to explode into particles. 
 
 ---
+
+1/ 13
+
 * 
 <!--
 * Links you used today (websites, videos, etc)
