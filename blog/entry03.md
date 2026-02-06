@@ -57,7 +57,10 @@ timerText.onUpdate(() => {
   timeLeft -= dt()                       
   timerText.text = Math.ceil(timeLeft)   
 })
+```
+
 ---
+
 Over the break I only did one lesson and I also searched some potential topics that I could learn when I get back to school. One topic that I thoguht wass very important to learn about would be like health bars because I was doing some sort of shooting game so I needed some sort of health bar. To also take some damage also and I looked online but I could not really find good websites to learn about this. I went onto ai and  asked it to generate me some websites that are the best for this specfic topic of health bars. It gave me this [js progress bar](https://www.w3schools.com/howto/howto_js_progressbar.asp?utm_source=chatgpt.com) it told me that I can use this and build onto the code to make it act like health bars instead of a progress bar. I took this website and I threw it onto my SEP notes so that I can revist this some other time.
 
 ---
@@ -65,5 +68,8 @@ Over the break I only did one lesson and I also searched some potential topics t
 # Plan on learning next
 Things that I plan to learn next is first of all getting a gist of how to make the health bar turning it from a progress bar into a health bar. Then also seeing how I can make it when someone shoots a bullet it will take damage and that health bar will go down. I want to also try to learn how to put like a automatic ai robot onto the enemy player where like when you join the game there is options to play with a friend like a two player game or jsut play online offline with a bot. I looked at one website so far from [the total beginners guide](https://www.gamedev.net/tutorials/programming/artificial-intelligence/the-total-beginners-guide-to-game-ai-r4942/) so far I found this website for this and I plan to learn about this and how I can integrate this into my game and maybe also setting a level of easy, medium, or hard is a idea that I have in mind but for now just these are what I am planning to learn next. 
 
+---
+
+# Engineering Design Process
 
 
