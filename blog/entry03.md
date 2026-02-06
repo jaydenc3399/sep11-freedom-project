@@ -71,5 +71,10 @@ Things that I plan to learn next is first of all getting a gist of how to make t
 ---
 
 # Engineering Design Process
+Right now I  feel that I am still in the same spot right now which is still researching the problem and trying to find ways to build onto my product. I have been using ai a little more often in order to find websites that I can use to learn about specific topics. I am inching a litte into brainstorming the problem now also like ways on how I can make this a offline game but I am mostly centered around the learning right now and the key components that I will need in order to build this website. Other than that I feel that I have made some progress so far into brainstorming the solutions. I am trying to take my time in learning this code because it gets confusing really easily so I am only devoting some time to brainstorming the soultion and the rest of my time to learning the fundamentals of kaboom. 
+
+---
+
+# Skills
 
 
