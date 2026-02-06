@@ -46,16 +46,16 @@ I thought about my code and I realized that I did not really need a function so 
 })
 ```
 With this I was able to piece the whole code together. 
-```
+```js
 const timerText = add([
-  text("10"),       // initial text
-  pos(20, 20),      // position on screen
-  fixed(),          // stays in the corner (UI)
+  text("10"),       
+  pos(20, 20),    
+  fixed(),          
 ])
 
 timerText.onUpdate(() => {
-  timeLeft -= dt()                       // same countdown
-  timerText.text = Math.ceil(timeLeft)   // THIS line shows it
+  timeLeft -= dt()                       
+  timerText.text = Math.ceil(timeLeft)   
 })
 ---
 
