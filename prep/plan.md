@@ -9,8 +9,11 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] Task 1: Finishing my Plan.md (deadline: 2/13)
+- [ ] Task 2 : Finishing to learn a component of Kaboom which is the health bars ( 2/23)
+- [ ] Task 3 :  learning how to put a Ai component like a bot and testing it out in a game (3/2)
+- [ ] Task 4: Creating the wireframes for both mobile and computer ( 3/9 )
+- [ ]  
 
 #### Beyond MVP
 
