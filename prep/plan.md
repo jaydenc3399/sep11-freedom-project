@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Kaboom
+## Product: A offline shooting game where you can select difficulties
 
 ---
 
@@ -20,9 +20,13 @@
 - [ ] Task 6: Creating the difficulty levels to choose from Easy, Medium and hard (3/11)
 - [ ] Task 7: Downloading the sprites and choosing which ones that I will want to use for my project (3/12)
 - [ ] Task 8: After adding in the sprites I am going to create the command that allows my sprites to be able to move using both WASD and the arrow keys (3/13)
-- [ ] Task 9: I am going to try to add in the sound effect to the death along with the explosion command to my sprites (3/14)
-- [ ] Task 10: Add some particles to the explosion effect and maybe add a music theme to the background (3/15)
-- [ ] Task 11
+- [ ] Task 9: I am going to try to add in the sound effect to the death along with the explosion command to my sprites (3/16)
+- [ ] Task 10: Add some particles to the explosion effect and maybe add a music theme to the background (3/17)
+- [ ] Task 11: Adding in the OnCollide function which I will add the sound effect of getting hurt to the function like when a gun shot hits the opponent (3/18)
+- [ ] Task 12: Adding in a colorful game background, uploading it from the kaboom website (3/19)
+- [ ] Task 13: Adding in the health bar for both the charcters and making sure it takes damage when hit. (3/20)
+- [ ] Task 14: Uploading like guns to the players or maybe making some balls come out of the players (3/23)
+- [ ] 
 
 #### Beyond MVP
 
