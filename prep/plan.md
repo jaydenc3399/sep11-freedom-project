@@ -31,8 +31,7 @@
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Task: Making my page responsive and trying to remember what I learned from last year with the divs and stuff
 
 
 <!-- EXAMPLE
