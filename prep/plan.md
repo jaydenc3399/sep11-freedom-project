@@ -7,6 +7,9 @@
 
 ## Timeline
 
+## Fonts
+* [Open Sans](https://fonts.google.com/selection/embed)
+
 #### MVP
 
 - [ ] Task 1: Finishing my Plan.md (deadline: 2/13)
@@ -16,7 +19,10 @@
 - [ ] Task 5:  Find a sutiablle template for the project if there is one that fits my wireframe. (3/10)
 - [ ] Task 6: Creating the difficulty levels to choose from Easy, Medium and hard (3/11)
 - [ ] Task 7: Downloading the sprites and choosing which ones that I will want to use for my project (3/12)
-- [ ] Task 8: 
+- [ ] Task 8: After adding in the sprites I am going to create the command that allows my sprites to be able to move using both WASD and the arrow keys (3/13)
+- [ ] Task 9: I am going to try to add in the sound effect to the death along with the explosion command to my sprites (3/14)
+- [ ] Task 10: Add some particles to the explosion effect and maybe add a music theme to the background (3/15)
+- [ ] Task 11
 
 #### Beyond MVP
 
