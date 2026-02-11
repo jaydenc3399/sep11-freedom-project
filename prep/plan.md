@@ -26,7 +26,8 @@
 - [ ] Task 12: Adding in a colorful game background, uploading it from the kaboom website (3/19)
 - [ ] Task 13: Adding in the health bar for both the charcters and making sure it takes damage when hit. (3/20)
 - [ ] Task 14: Uploading like guns to the players or maybe making some balls come out of the players (3/23)
-- [ ] 
+- [ ] Task 15: Creating a field background where there is no limitations to where to go and making there be a border to where you can walk off the map (3/24)
+- [ ] Task 16: 
 
 #### Beyond MVP
 
