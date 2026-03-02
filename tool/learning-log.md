@@ -333,9 +333,62 @@ These were jsut some of the things I added into the Oncolldie function so that w
 ## Do next:
 Something that I would do next is exploring more into animations like how to actaully start developing the game and peice things together, just planning out really what my game would look like and how to start it becasue I feel like I am just learning new code but applying that learning into my code could be a little challenging. 
 
+# 3/2
+I learned how to use health bars for the games and how to make it take damage on impact like a gun shot or something from [kaboom.js](https://kaboomjs.com/#health) 
 
+* In the beginning I first tried to sue the code that they provided and went to jsbin to go test it out with a random thing.
+```js
+const player = add([
+    health(3),
+])
 
-* 
+player.onCollide("bad", (bad) => {
+    player.hurt(1)
+    bad.hurt(1)
+})
+
+player.onCollide("apple", () => {
+    player.heal(1)
+})
+
+player.on("hurt", () => {
+    play("ouch")
+})
+
+// triggers when hp reaches 0
+player.on("death", () => {
+    destroy(player)
+    go("lose")
+})
+```
+* I copied there code and I went onto a different pickcode document and then tested it out on a random sprite to avoid messing up my own code. When I tried it there was only a heath bar that showed up which was perfect
+* I then tried to apply this to my own code and it worked but I wondered if I could create a conditional if it got hit or took damage the bar would go down
+    * I then started applying this to my own code one by one starting with the color and the position of the health bar
+```js
+ const healthBar = add([
+      rect(40, 6),
+      pos(player.pos.x - 20, player.pos.y - 30),
+      color(0, 255, 0),
+      "healthBar"
+  ]);
+```
+* Then I made a conditional that would update the healthbar like taking damage would reduce the bar
+```js
+  onUpdate(() => {
+      healthBar.pos = player.pos.add(vec2(-20, -30));
+      healthBar.width = 40 * (player.health / 100);
+
+      if (player.health < 30) {
+          healthBar.color = rgb(255, 0, 0); 
+      } else if (player.health < 60) {
+          healthBar.color = rgb(255, 165, 0); 
+      } else {
+          healthBar.color = rgb(0, 255, 0); 
+      }
+  });
+```
+### After creating this I tested it out and it worked smoothly when it took damage the particles also showed and after my sprite died it just dissapeared which is what I wanted. 
+ 
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
