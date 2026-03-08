@@ -333,6 +333,8 @@ These were jsut some of the things I added into the Oncolldie function so that w
 ## Do next:
 Something that I would do next is exploring more into animations like how to actaully start developing the game and peice things together, just planning out really what my game would look like and how to start it becasue I feel like I am just learning new code but applying that learning into my code could be a little challenging. 
 
+---
+
 # 3/2
 I learned how to use health bars for the games and how to make it take damage on impact like a gun shot or something from [kaboom.js](https://kaboomjs.com/#health) 
 
@@ -387,7 +389,20 @@ player.on("death", () => {
       }
   });
 ```
-### After creating this I tested it out and it worked smoothly when it took damage the particles also showed and after my sprite died it just dissapeared which is what I wanted. 
+### After creating this I tested it out and it worked smoothly when it took damage the particles also showed and after my sprite died it just dissapeared which is what I wanted
+* Some things I also tried doing was seeing if I extended the life bar length would it increase the health but it did not
+* I made sure to make it so that when the health bar dies the character will not reappear using this line of code
+
+```js
+ if (player.health <= 0) {
+        destroy(player);
+        wait(100, () => go("game"));
+    }
+```
+This ensure that if the health reaches 0 it will dissapear. 
+
+# Try Next
+Something that I am going to try next is trying to make the contact of another enemy so that when the bullet of it collides it will deal damage because as of now I just set it to when I click D. Another thing I want to try is adding a ai component to the enemy player so that it can function on its own and if it does not work I will try jsut createing it to be two player. 
  
 <!--
 * Links you used today (websites, videos, etc)
