@@ -1,7 +1,7 @@
 # Entry 4
 ##### 3/9/26
 
-From my last blog entry I was still learning some finishing touches of the code and now I have done a few more lessons to get the main componets of my game. Now I am planning out how I want my game right now and I am using a google doc to help me plan where I want things like the requirnemnts that I am going to need to create the game. I so far have completed one lesson after the last blog entry which was health bars and I learned this through the [kaboom website](https://kaboomjs.com/#health). I Started working with some of the regular starter code that it gave and I tinkered in jsbin. After getting a jist of wht I was learning I then tried to incoperate this into my practice code that I had making a health bar and this is waht I looked at. 
+From my last blog entry I was still learning some finishing touches of the code and now I have done a few more lessons to get the main componets of my game. Like I said from my last blog entry I have searched a bunch of these topics that would be importnat for my project. This was one of the last components that I needed which was health bar. I am at the momment planning out how I want my game right now and I am using a google doc to help me plan where I want things like the requirnemnts that I am going to need to create the game. I was planning to do a checklist of my requirments because the plan is useful for keeping track of dates but I wanted a seperate sheet of paper so I can check off the requirments like this page needs this andd that. It makes it easier to read I feel like and shows me what I am missing and if I have done that specific task on it I just put a check mark on it. Since I have started palnning I have one topic left which is adding a ai component to play with but I plan on doing that later on and incoperating it later on so I have something to add for my learning log also. I so far have completed one lesson after the last blog entry which was health bars and I learned this through the [kaboom website](https://kaboomjs.com/#health). I started working with some of the regular starter code that it gave and I tinkered in jsbin. After getting a jist of wht I was learning I then tried to incoperate this into my practice code that I had making a health bar and this is waht I looked at. 
 
 ```js
  const healthBar = add([
@@ -11,7 +11,25 @@ From my last blog entry I was still learning some finishing touches of the code 
       "healthBar"
   ]);
 ```
-I first created the health bar itself and the position where I wanted the health bar to be including the shape
+I first created the health bar itself and the position where I wanted the health bar to be, including the shape. This was the easy part as it was copying and pasting almost. After this I created the end where the charcter will die 
+
+```js
+ if (player.health <= 0) {
+        destroy(player);
+        wait(100, () => go("game"));
+    }
+```
+However the next part was really tricky for me because as in a way I had to create a conditional for if the player does this or that the health bar will drop. 
+```js
+ if (player.health < 30) {
+          healthBar.color = rgb(255, 0, 0); 
+      } else if (player.health < 60) {
+          healthBar.color = rgb(255, 165, 0); 
+      } else {
+          healthBar.color = rgb(0, 255, 0); 
+      }
+```
+I created this code which was basically just the health bar color and if it reaches a certain health limit the color will go down jsut like in games when you get low health it will turn red. I then set the damage it would take per hit, I first tested this out using the `onKeyPress`  
 
 [Previous](entry03.md) | [Next](entry05.md)
 
