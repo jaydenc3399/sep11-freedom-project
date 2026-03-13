@@ -56,7 +56,15 @@ This finished the part I had for health bars and I even tested it out and it wor
 ---
 
 # Engineering Design Process
-Right now on the engineering design process I have moved over one step from basically planning my process and everything and now taking all that information now comibing it into making step 5 of the engineering design process which is creating the prototype of the MVP for now. I have jsut started to create this and it is going to take some time to develop the protoype and I am going to be here untill around maybe the end of April or a little earlier. I started creating the background and also even created the different difficulties modes, incluidng the sprites that I want to be in the game. I am thinking to choose set sprites or find a way to let the user choose, but for now I have created some set sprites to hold as a placeholder. I am happy with my progress so far and I just need to inch closer and closer to the final product and try to go beyond the MVp after. 
+Right now on the engineering design process I have moved over one step from basically planning my process and everything and now taking all that information now comibing it into making step 5 of the engineering design process which is creating the prototype of the MVP for now. I have jsut started to create this and it is going to take some time to develop the protoype and I am going to be here untill around maybe the end of April or a little earlier. I started creating the background and also even created the different difficulties modes, incluidng the sprites that I want to be in the game. I am thinking to choose set sprites or find a way to let the user choose, but for now I have created some set sprites to hold as a placeholder. I am happy with my progress so far and I just need to inch closer and closer to the final product and try to go beyond the MVP after. 
+
+---
+
+# Skills
+
+---
+
+# Time managment
 
 
 [Previous](entry03.md) | [Next](entry05.md)
