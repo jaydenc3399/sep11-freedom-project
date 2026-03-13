@@ -64,7 +64,9 @@ Right now on the engineering design process I have moved over one step from basi
 
 ---
 
-# Time managment
+# Time managment 
+This is a important skill to have right now as I feel that since we are inching closer to the deadline of the freedom project I have not really even started much and I need to start working on it more. But really finding that time out right now to spend some time on the freedom project is hard. Along with work from other classes after you do some work after a long period of time you would want some rest and after that you lose track of time leading you to have no time for things like the freedom project. I think now I am going to have to create a new shcedule where it would be able to support some spare time for the freedom project as I am kind of far. My plan for my scheudle it to go home then take around a thrity minute break then I will transition to homework and get it all done at once. Then I will give my mind another resting break, after resting I will trasnition little by little each day inching into the MVP and getting little by little done. I will do more work on some days and a little less work on one day so its balanaced. 
+#
 
 
 [Previous](entry03.md) | [Next](entry05.md)
