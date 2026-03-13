@@ -1,5 +1,5 @@
 # Entry 4
-##### 3/9/26
+## 3/9/26
 
 From my last blog entry I was still learning some finishing touches of the code and now I have done a few more lessons to get the main componets of my game. Like I said from my last blog entry I have searched a bunch of these topics that would be importnat for my project. This was one of the last components that I needed which was health bar. I am at the momment planning out how I want my game right now and I am using a google doc to help me plan where I want things like the requirnemnts that I am going to need to create the game. I was planning to do a checklist of my requirments because the plan is useful for keeping track of dates but I wanted a seperate sheet of paper so I can check off the requirments like this page needs this andd that. It makes it easier to read I feel like and shows me what I am missing and if I have done that specific task on it I just put a check mark on it. So far I went through some of the topics in my learning log that I would have to add and it looks like this. 
 
@@ -51,7 +51,12 @@ onUpdate(() => {
       }
 });
 ```
-This finished the part I had for health bars and I even tested it out 
+This finished the part I had for health bars and I even tested it out and it worked when I clicked D so now I am going to move onto developing my product. 
+
+---
+
+# Engineering Design Process
+Right now on the engineering design process I have moved over one step from basically planning my process and everything and now taking all that information now comibing it into making step 5 of the engineering design process which is creating the prototype of the MVP for now. I have jsut started to create this and it is going to take some time to develop the protoype and I am going to be here untill around maybe the end of April or a little earlier. 
 
 
 [Previous](entry03.md) | [Next](entry05.md)
