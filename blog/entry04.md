@@ -7,7 +7,7 @@ From my last blog entry I was still learning some finishing touches of the code 
 
 ---
 
-Since I have started planning I have one topic left which is adding a ai component to play with but I plan on doing that later on and incorporating it later on so I have something to add for my learning log also. I so far have completed one lesson after the last blog entry which was health bars and I learned this through the [kaboom website](https://kaboomjs.com/#health). I started working with some of the regular starter code that it gave and I tinkered in jsbin. After getting a gist of what I was learning I then tried to incorporate this into my practice code that I had making a health bar and this is what I looked at. 
+Since I have started planning I have one topic left which is adding a ai component to play with but I plan on doing that later on and incorporating it later on so I have something to add for my learning log also. I so far have completed one lesson after the last blog entry which was health bars and I learned this through the [kaboom website](https://kaboomjs.com/#health). I started working with some of the regular starter code that it gave and I tinkered in jsbin. After getting a gist of what I was learning I then tried to incorporate this into my practice code that I had making a health bar and this is what I looked at. Before the practice I went onto some websites to see how it looks like, just getting some examples and how they function such as [this website from free code camp](https://forum.freecodecamp.org/t/javascript-game-health-bar-using-constructor-prototype/282763)
 
 ```js
  const healthBar = add([
@@ -33,7 +33,7 @@ healthBar.width = 100 * (player.health / 2);
 ```
 
 ---
-I tried thinking of ways to make it update after each click on D and I came up with using `onUpdate` which basically just does what I want it to do, updating the health bar when I click D. I created a condition where if it reaches a certain health it would turn red and it will also update the health bar merging everything into one and it looked like this.
+I tried thinking of ways to make it update after each click on D and I came up with using `onUpdate` which basically just does what I want it to do, updating the health bar when I click D. I created a condition where if it reaches a certain health it would turn red and it will also update the health bar merging everything into one and it looked like this. I did this by watching some [videos](https://www.construct.net/en/tutorials/health-bar-275?utm_source=) I found online on how to create a health bar to see where I went wrong also.
 
 ---
 
