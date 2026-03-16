@@ -406,7 +406,30 @@ Something that I am going to try next is trying to make the contact of another e
 
 3/16
 For learning this time I went onto the kaboom website and since I was alraedy done with elarning everythign I wanted. I went to go check if I could learn anything else. I came across on the [kaboom wesbite](https://kaboomjs.com/#doubleJump) where I came across double jump and I thought that was pretty intresting because instead of one jump the player could do a double jump. 
- 
+
+ ----
+
+ I first used their starter code to test it out on my own
+
+ ```js
+// bean jumpy
+const bean = add([
+    sprite("bean"),
+    // body() requires "pos" and "area" component
+    pos(),
+    area(),
+    body(),
+])
+
+// when bean is grounded, press space to jump
+// check out #BodyComp for more methods
+onKeyPress("space", () => {
+    if (bean.isGrounded()) {
+        bean.jump()
+    }
+])
+```
+I used this code and added a spirte to it and tested it out with the double jump. I then moved onto looking at some exampels of how I would incoperate that into my code. 
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
