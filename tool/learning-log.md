@@ -403,6 +403,9 @@ This ensure that if the health reaches 0 it will dissapear.
 
 # Try Next
 Something that I am going to try next is trying to make the contact of another enemy so that when the bullet of it collides it will deal damage because as of now I just set it to when I click D. Another thing I want to try is adding a ai component to the enemy player so that it can function on its own and if it does not work I will try jsut createing it to be two player. 
+
+3/16
+For learning this time I went onto the kaboom website and since I was alraedy done with elarning everythign I wanted. I went to go check if I could learn anything else. I came across on the [kaboom wesbite](https://kaboomjs.com/#doubleJump) where I came across double jump and I thought that was pretty intresting because instead of one jump the player could do a double jump. 
  
 <!--
 * Links you used today (websites, videos, etc)
