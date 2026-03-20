@@ -429,7 +429,41 @@ onKeyPress("space", () => {
     }
 ])
 ```
-I used this code and added a spirte to it and tested it out with the double jump. I then moved onto looking at some exampels of how I would incoperate that into my code. 
+I used this code and added a spirte to it and tested it out with the double jump. I then moved onto looking at some examples of how I would incoperate that into my code. I first started with the basics whoich is jsut adding it to my sprite and this is waht it looked like. 
+
+```js
+const player = add([  
+  sprite("bean"),
+  pos(150, 80),
+  area(),
+  body(),
+  color(255, 0, 0),
+  "bean",
+  { 
+    health: 100,
+    jumps: 0,       
+    maxJumps: 2     
+  }
+]);
+
+```
+
+I set the max jumps to two like a double jump but the next step I needed was to add like a key to it so I turned to where I had my controls where I would mvoe my sprite and added that on there. It looked like this: 
+
+```js
+onKeyPress("space", () => {
+  if (player.jumps < player.maxJumps) {
+    player.jump(400); 
+    player.jumps++;
+  }
+});
+```
+I created a function where it would control the jump force and not only that when you click space the sprite would double jump and that was bascially the end of my lesson.
+
+---
+
+## Do Next 
+Something that I will do next is search for some more topics that I can learn adn see what progress I can still add and some steps I can take to my beyond MVP and so on. While maybe commiting a little lesss as I need to work on my MYP. 
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
