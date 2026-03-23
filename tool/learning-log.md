@@ -464,6 +464,26 @@ I created a function where it would control the jump force and not only that whe
 
 ## Do Next 
 Something that I will do next is search for some more topics that I can learn adn see what progress I can still add and some steps I can take to my beyond MVP and so on. While maybe commiting a little lesss as I need to work on my MYP. 
+
+3/23 
+I started checking on the akaboom wesbite to see what I could potentially learn and I was thinking what if I could ad like a special move to the charcater so I went onto the kaboom website to see if there is anything I could add to mkae a special move. I stumbled onto one of the codes `onKeyPress` and I was thinking maybe I can add a key to actviate a special move. I foudn this on the [kaboom onkeypress](https://kaboomjs.com/#onKeyPress).
+
+* I was thinking of like special abilities I could possibly put for my beyond MVP. Creating some special effects or soemthing,
+* I looked at all the possible things I could do with keyPress liek resseting the game when its finisheed by clicking a certain key
+* I took some examples from their webite
+
+```js
+onKeyPress(() => {
+    restart()
+})
+```
+
+I took this code and I tried to apply it to my own game, like pressing c to restart the game and then use x as like a super power. I might jsut make the superpower a cool effect and thats it, wont do anythign besides intimidation. I then added this onto my code after thinking for a ltitle bit. 
+
+```js
+
+
+(Looking on the kaboom website and seeing what else I could add to my game. I stumbled across onKeypRess which I thought I could use for my Beyond MVP like creating a special move or restarting the game on a keyPress. I am trying to find a way to add it onto my game, incoperating, still in the process). 
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
