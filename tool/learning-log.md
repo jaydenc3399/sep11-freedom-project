@@ -481,7 +481,19 @@ onKeyPress(() => {
 I took this code and I tried to apply it to my own game, like pressing c to restart the game and then use x as like a super power. I might jsut make the superpower a cool effect and thats it, wont do anythign besides intimidation. I then added this onto my code after thinking for a ltitle bit. 
 
 ```js
+onKeyPress("r", () => {
+    go("game");
+});
+```
+I added this to when I started my game with the go(game) which bascially jsut restarts my game when the user clicks r and it worked perfectly. After this I tried to add a specila effect using onKeyPress and it turned out liek this 
+```js
+onKeyPress("s", () => {
+    sparkle(vec2(rand(100, 540), rand(100, 380)));
+});
+```
+With this I created a code where When I clck s theres a sspecial effect and I was thinking what I can maybe add to this but left it there for now
 
+## Do Next: Maybe just to look for other things I can add to my beyond MVP whole still making some progress in my MVP and exploring more topics in general. 
 
 (Looking on the kaboom website and seeing what else I could add to my game. I stumbled across onKeypRess which I thought I could use for my Beyond MVP like creating a special move or restarting the game on a keyPress. I am trying to find a way to add it onto my game, incoperating, still in the process). 
 <!--
