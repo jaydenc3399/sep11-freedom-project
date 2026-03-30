@@ -12,14 +12,14 @@
 
 #### MVP
 
-- [ ] Task 1: Finishing my Plan.md (deadline: 2/13)
-- [ ] Task 2 : Finishing to learn a component of Kaboom which is the health bars and how to place them on sprites or characters ( 2/23)
-  - [ ] Task 3 : Another learning day on how to put a Ai component like a bot and testing it out in a game (3/2)
-- [ ] Task 4: Creating the wireframes for both mobile and computer, planning out where everything will go ( 3/9 )
-- [ ] Task 5:  Find a sutiablle template for the project if there is one that fits my wireframe. (3/10)
-- [ ] Task 6: Creating the difficulty levels to choose from Easy, Medium and hard (3/11)
-- [ ] Task 7: Downloading the sprites and choosing which ones that I will want to use for my project or if I cant find any jsut create some regular circles that are different colors to differentiate the two players (3/12)
-- [ ] Task 8: After adding in the sprites I am going to create the command that allows my sprites to be able to move using both WASD and the arrow keys (3/13)
+- [done ] Task 1: Finishing my Plan.md (deadline: 2/13)
+- [done ] Task 2 : Finishing to learn a component of Kaboom which is the health bars and how to place them on sprites or characters ( 2/23)
+  - [done ] Task 3 : Another learning day on how to put a Ai component like a bot and testing it out in a game (3/2)
+- [ done] Task 4: Creating the wireframes for both mobile and computer, planning out where everything will go ( 3/9 )
+- [ done] Task 5:  Find a sutiablle template for the project if there is one that fits my wireframe. (3/10)
+- [x ] Task 6: Creating the difficulty levels to choose from Easy, Medium and hard (3/11)   (considered extra skip for now) 
+- [done ] Task 7: Downloading the sprites and choosing which ones that I will want to use for my project or if I cant find any jsut create some regular circles that are different colors to differentiate the two players (3/12)
+- [ done] Task 8: After adding in the sprites I am going to create the command that allows my sprites to be able to move using both WASD and the arrow keys (3/13)
 - [ ] Task 9: I am going to try to add in the sound effect to the death along with the explosion command to my sprites (a conditional basically) (3/16)
   - [ ] Task 10: Add some particles to the explosion effect and maybe add a music theme to the background (3/17)
 - [ ] Task 11: Adding in the OnCollide function which I will add the sound effect of getting hurt to the function like when a gun shot hits the opponent (3/18)
