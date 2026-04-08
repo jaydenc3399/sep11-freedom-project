@@ -1,86 +1,227 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <title>Tom and Jerry Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/kaboom@3000.1.17/dist/kaboom.js"></script>
+    <style>
+        body { margin: 0; background: #000; overflow: hidden; }
+        .ui { position: absolute; top: 0; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; background: rgba(0,0,0,0.8); color: white; font-family: sans-serif; z-index: 10; } /* used for the start and end of the game strcuture */
+    </style>
+</head>
+<body>
+    <div id="ui" class="ui">
+        <h1 id="txt">Tom and Jerry</h1>
+        <p id="subtxt">Select Mode</p>
+        <button class="btn btn-light btn-lg mb-2" onclick="go('game', true)">SOLO MODE</button>
+        <button class="btn btn-light btn-lg" onclick="go('game', false)// BUTTON at the beginning tto select the mode you want ">MULTIPLAYER</button>
+    </div>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <style>
-            /* CSS */
-        </style>
+<script>
+    // Initialize the game canvas size and background color
+    kaboom({ width: 1200, height: 600, background: [20, 20, 20] });
 
-        <title>Title</title>
-    </head>
-    <body>
-        <!-- HTML -->
+    // Load images of the sprites, the cat and mouse
+    loadSprite("mouse", "mouse.png");
+    loadSprite("cat", "cat.jpg");
 
-        <!-- Kaboom JS -->
-        <script src="https://unpkg.com/kaboom/dist/kaboom.js"></script>
-        <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    // Main Game Scene
+    scene("game", (isSolo) => {
+        document.getElementById("ui").style.display = "none";
 
-        <script>
+        // Camera settings/ basically the position of how much of the screen you can see
+        setGravity(1600);
+        camPos(1250, 200);
+        camScale(0.4);
 
-            kaboom({
-                background: [0, 0, 0],
-            });
+        // Variables to track scores and if the players are allowed to move
+        let mouseMatchPoints = 0;
+        let catMatchPoints = 0;
+        let gameActive = false;
 
-      
-            scene("mainScene", () => {
+        // UI Text elements for the score and "Ready/Go" status
+        const scoreLabel = add([text("0 - 0", {size:32}), pos(600, 20), fixed(), anchor("center")]);
+        const statusLabel = add([text("WAITING...", {size:40}), pos(600, 300), fixed(), anchor("center")]);
 
-                const map = addLevel([
-                    "                                    $   $",
-                    "                          $                 ",
-                    "           $$         =       $     $$      ",
-                    "  %      ====       ==    ==       ====     ",
-                    "              $                     =       ",
-                    "       ^^      =    ^^     =    ^^   =   & ",
-                    "   $    ====         ====          ======== ",
-                    "============================================",
-                ], {
-                    tileWidth: 32,
-                    tileHeight: 32,
+        // Level Design Map
+        addLevel([
+            "                                                                                ",
+            "    ====                                                                ====    ",
+            "    ==                              $$                                  ==      ",
+            "    ====                $$          ^^          $$                      ====    ",
+            "                      ======      ======      ======                            ",
+            "                                                                                ",
+            "            ====                                            ====                ",
+            "            ====            ^^              ^^              ====                ",
+            "    ============      ==============================      ============          ",
+            "    ====        ====  ====                      ====  ====        ====    f     ",
+            "================================      ==========================================",
+        ], {
+            tileWidth: 32,
+            tileHeight: 32,
+            tiles: {
+                // "=" is a solid wall
+                "=": () => [rect(32, 32), area(), body({isStatic:true}), color(120, 120, 120), "wall"],
+                // "$" defines a dot where it will explode to sparkles when stepped on
+                "$": () => [rect(16,16), area(), color(255,215,0), anchor("center"), "coin"],
+                // "^" defines a red obstacle (the laser)
+                "^": () => [rect(48,16), area(), color(255,0,0), anchor("bot"), "hazard", {s: 180}],
+                // "f" defines the blue finish flag (Only appears in Solo Mode)
+                "f": () => {
+                    if (isSolo == true) { return [rect(20,100), area(), color(0,100,255), anchor("bot"), "flag"]; }
+                    return [];
+                }
+            }
+        });
 
-                    tiles: {
-                        "=": () => [
-                            rect(32, 32),
-                            area(),
-                            body({ isStatic: true }),
-                            color(100, 200, 100),
-                        ],
-                        "$": () => [
-                            rect(16, 16),
-                            area(),
-                            pos(8, 8),
-                            color(255, 215, 0),
-                            "collectible",
-                        ],
-                        "^": () => [
-                            rect(32, 32),
-                            area(),
-                            color(255, 0, 0),
-                            "hazard",
-                        ],
-                        "%": () => [
-                            rect(32, 32),
-                            area(),
-                            color(0, 0, 255),
-                            "startPoint",
-                        ],
-                        "&": () => [
-                            rect(32, 32),
-                            area(),
-                            color(255, 255, 255),
-                            "endPoint",
-                        ],
-                    }
+        // Function to create the player objects
+        function spawn(tag, x, hpX, col) {
+            let s = 0.35; // Scale for Cat
+            if (tag == "mouse") { s = 0.08; } // Scale for Mouse
+            return add([
+                sprite(tag),
+                pos(x, 0),
+                area(),
+                body(),
+                scale(s),
+                tag,
+                {
+                    hp: 100,
+                    inv: false,
+                    // Health bar
+                    bar: add([rect(200,20), pos(hpX, 40), color(col), fixed()])
+                }
+            ]);
+        }
+
+        // Create Player 1 (Mouse)
+        const p1 = spawn("mouse", 100, 20, [0,255,0]);
+
+        // Create Player 2 (Cat) only if Multiplayer is chosen
+        let p2 = null;
+        if (isSolo == false) { p2 = spawn("cat", 2200, 980, [255,0,0]); }
+
+        // Countdown after you click start
+        function startRound() {
+            statusLabel.text = "GO";
+            wait(0.5, () => { statusLabel.text = ""; });
+            gameActive = true;
+        }
+
+        // Wait for player to click or press a key to start the round
+        onKeyPress(() => { if(gameActive == false) startRound(); });
+        onMousePress(() => { if(gameActive == false) startRound(); });
+
+        // Function to put players back at start positions after a point is scored
+        function resetRound() {
+            gameActive = false;
+            statusLabel.text = "READY";
+            p1.pos = vec2(100, 0); p1.hp = 100; p1.inv = false; p1.opacity = 1; p1.bar.width = 200;
+            if (p2) { p2.pos = vec2(2200, 0); p2.hp = 100; p2.inv = false; p2.opacity = 1; p2.bar.width = 200; }
+            scoreLabel.text = mouseMatchPoints + " - " + catMatchPoints;
+        }
+
+        // Damage logic when hit by obstacle or bullet
+        function hurt(p) {
+            if (p.exists() == false) return;
+            if (p.inv == true) return;
+
+            p.hp = p.hp - 20;
+            p.bar.width = p.hp * 2; // Shrink health bar
+            p.inv = true;
+            p.opacity = 0.5; //a sort of flash affect when you take damage
+
+            if (p.hp <= 0) {
+                // Awards the points to the opponent who wins
+                if (p.is("mouse") == true) { catMatchPoints = catMatchPoints + 1; }
+                else { mouseMatchPoints = mouseMatchPoints + 1; }
+
+                // Checks for overall match win (First to 3)
+                if (mouseMatchPoints >= 3 || catMatchPoints >= 3) {
+                    let winMsg = "CAT WINS";
+                    if (mouseMatchPoints >= 3) { winMsg = "MOUSE WINS"; }
+                    showEnd(winMsg);
+                } else { resetRound(); }
+            } else {
+                // Invincibility cooldown (1 second)
+                wait(1, () => {
+                    if(p.exists() == true){ p.inv = false; p.opacity = 1; }
                 });
+            }
+        }
 
+        function showEnd(message) {
+            document.getElementById("ui").style.display = "flex";
+            document.getElementById("txt").innerText = message;
+            document.getElementById("subtxt").innerText = "Match Over";
+        }
+
+        // Links the keys to player movement and shooting
+        function bind(p, l, r, j, s, bCol, target) {
+            onKeyDown(l, () => { if(gameActive == true) p.move(-400,0); }); // Left
+            onKeyDown(r, () => { if(gameActive == true) p.move(400,0); });  // Right
+            onKeyPress(j, () => { if(gameActive == true && p.isGrounded() == true) p.jump(850); }); // Jump
+            onKeyPress(s, () => { // Shoot
+                if(gameActive == false) return;
+                let dir = LEFT;
+                if(p.is("mouse") == true) { dir = RIGHT; }
+                // Create bullet object
+                add([rect(20,10), pos(p.pos.add(20,20)), color(bCol), area(), move(dir, 1100), "bullet", {target}]);
             });
+        }
 
-            // start the scene
-            go("mainScene");
-        </script>
-    </body>
+        // Player 1: A, D, W (Jump), X (Shoot)
+        bind(p1, "a", "d", "w", "x", [255,255,255], "cat");
+        // Player 2: Arrows (Jump), N (Shoot)
+        if(p2) bind(p2, "left", "right", "up", "n", [255,0,0], "mouse");
+
+        // Bullet collisions
+        onCollide("bullet", "wall", (b) => destroy(b)); // Bullets hit walls
+        onCollide("bullet", "cat", (b) => { if(p2 && b.target=="cat") { destroy(b); hurt(p2); }}); // Bullet hits Cat
+        onCollide("bullet", "mouse", (b) => { if(b.target=="mouse") { destroy(b); hurt(p1); }}); // Bullet hits Mouse
+
+        //  sparkle effect when you touch the dots
+        onCollide("mouse", "coin", (p, c) => {
+            const coinPos = c.pos;
+            destroy(c);
+            for(let i = 0; i < 8; i = i + 1) {
+                add([rect(4, 4), pos(coinPos), color(255, 215, 0), move(rand(0, 360), 150), lifespan(0.4)]);
+            }
+        });
+
+        //  damage taken from the obstacles (red platform)
+        onCollide("mouse", "hazard", () => { if(gameActive == true) hurt(p1); });
+        if(p2) onCollide("cat", "hazard", () => { if(gameActive == true) hurt(p2); });
+
+        // Solo Mode win condition
+        if (isSolo == true) {
+            p1.onCollide("flag", () => showEnd("MOUSE ESCAPED"));
+        }
+
+        // Move the obstacles back and forth
+        onUpdate("hazard", (h) => {
+            if(gameActive == false) return;
+            h.move(h.s, 0);
+            if(h.pos.x > 1800 || h.pos.x < 700) { h.s = h.s * -1; }
+        });
+
+        // Check if players fell off the map
+        onUpdate(() => {
+            if(gameActive == false) return;
+            if(p1.pos.y > 1000) {
+                catMatchPoints = catMatchPoints + 1;
+                if (catMatchPoints >= 3) { showEnd("CAT WINS"); }
+                else { resetRound(); }
+            }
+            if(p2 && p2.pos.y > 1000) {
+                mouseMatchPoints = mouseMatchPoints + 1;
+                if (mouseMatchPoints >= 3) { showEnd("MOUSE WINS"); }
+                else { resetRound(); }
+            }
+        });
+
+        resetRound();
+    });
+</script>
+</body>
 </html>
