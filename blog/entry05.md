@@ -121,7 +121,7 @@ onKeyPress(s, () => { // Shoot
 
 ---
 
-This was the code for my 
+This was the code for my freedom project 
 
 
 [Previous](entry04.md) | [Next](entry06.md)
