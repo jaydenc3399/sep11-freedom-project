@@ -163,7 +163,10 @@ Right now on the engineering design process I am on the step where I created the
 ---
 
 # Time managment & Perserverance
-I would say in general this was a skill that really got me through this freedom project because in the beginning I was relly struggling and I did not really know how to start my freedom project and also really jsut trying to find that time where I can take out to start the freedom proejct from all the works from my other classes like the Ap's where the all gave spring assignments. It was hard to really just take some time out as once I did some homeowrk for another class I would want to take a break 
+I would say in general this was a skill that really got me through this freedom project because in the beginning I was relly struggling and I did not really know how to start my freedom project and also really jsut trying to find that time where I can take out to start the freedom proejct from all the works from my other classes like the Ap's where the all gave spring assignments. It was hard to really just take some time out as once I did some homeowrk for another class I would want to take a break and this would jsut move on and thats why it took me so long to finish this. THis skill is so important because while doing the freedom project it was really hard trying to get the right code and when there was a error and a mistake and I tried to fix it but despite fixing it there was still a error and that really ticked me off. I was able to use the resources that I had to overcome this and eventually with some breaks in between of a 6 hour span of working I finished it and perservered through this long task but really for me next time I need to plan my time out better as I did take some break days where I did nothing over the break also, so really just taking days to do part by part is recommended rather than doing everything all in one chunk. 
+
+# Hard working 
+
 
 
 
