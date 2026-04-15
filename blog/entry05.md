@@ -131,7 +131,8 @@ It just connects the keys bascially and links them to my mouse sprite that I hav
 
 ---
 
-Engineering Design Process 
+# Engineering Design Process
+Right now on the engineering design process I am on the step where I created the prototype which is my MVP and 
 
 
 
