@@ -121,7 +121,19 @@ onKeyPress(s, () => { // Shoot
 
 ---
 
-This was the code for my freedom project 
+This was the code for my freedom project where if they clicked s it would shoot but for the walking commands and jump I used `bind` which I found online and it allows users to customize how terminal keys and keyboard shortcuts behave. I applied this to my W, A and D command and for for X also.
+
+```js
+bind(p1, "a", "d", "w", "x",
+if(p2) bind(p2, "left", "right", "up", "n", [255,0,0], "mouse");
+```
+It just connects the keys bascially and links them to my mouse sprite that I have. These were the main things I learned on my learning log and applied to my freedom project MVP. 
+
+---
+
+Engineering Design Process 
+
+
 
 
 [Previous](entry04.md) | [Next](entry06.md)
