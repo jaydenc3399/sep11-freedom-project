@@ -132,7 +132,7 @@ It just connects the keys basically and links them to my mouse sprite that I hav
 ---
 
 ## How I finished my MVP 
-Over the spring break I started working on my [MVP][(https://github.com/jaydenc3399/sep11-freedom-project/blob/main/index.html](https://jaydenc3399.github.io/sep11-freedom-project/)) kind of late and I sort of had to rush things, there was only around 4 days left to break ends. I used my plan to help guide me but I did tweak some things from the original plan itself and sort of improvised. I first started by uploading my sprites using loadSprite and at first the sprite did not load. 
+Over the spring break I started working on my [MVP] [(https://github.com/jaydenc3399/sep11-freedom-project/blob/main/index.html](https://jaydenc3399.github.io/sep11-freedom-project/)) kind of late and I sort of had to rush things, there was only around 4 days left to break ends. I used my plan to help guide me but I did tweak some things from the original plan itself and sort of improvised. I first started by uploading my sprites using loadSprite and at first the sprite did not load. 
 
 ```js
 loadSprite("mouse", "mouse.png");
