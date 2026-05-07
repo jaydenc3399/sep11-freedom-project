@@ -3,6 +3,7 @@
 ## Hook
 * Raise your hand if you guys watched a cartoon in your childhood
 * Tom and Jerry im pretty sure a lot of us are familiar with the cat and mosue cartoon
+* My game is basically based on a shooting game where tom and jerry battle it out to a score of 3 where you can choose solo or multiplayer depending on your preferance
 
 ## Product
 * Showing off the map that I created with all the obstacles
