@@ -35,6 +35,12 @@
 - [ ] Task: Making my page responsive and trying to remember what I learned from last year with the divs and stuff, making my game shrink width prots to the device the person is on (3/27)
 - [ ] Trying to make the gane be a triple player and not just two or maybe being able to select the amount of players they want to play with (3/30)
 
+## New Beyond MVP
+- [ ] Adding a different type of map to the page because I have solo and multiplayer now with the same map
+- [ ] Make the sprites shoot at different directions, the way they point
+- [ ] Reposition the sprites so they arent reverse
+- [ ] Adding some different types of obstacles to the maps to make it a little more challenging
+
 
 <!-- EXAMPLE
 
