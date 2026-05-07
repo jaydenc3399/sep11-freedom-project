@@ -1,10 +1,11 @@
 # Presentation Plan
 
 ## Hook
-* 
+* Raise your hand if you guys watched a cartoon in your childhood
+* Tom and Jerry im pretty sure a lot of us are familiar with the cat and mosue cartoon
 
 ## Product
-* 
+* Showing off the map that I created with all the obstacles
 
 ## Process
 * 
