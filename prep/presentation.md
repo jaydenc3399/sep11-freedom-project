@@ -2,17 +2,24 @@
 
 ## Hook
 * Raise your hand if you guys watched a cartoon in your childhood
-* Tom and Jerry im pretty sure a lot of us are familiar with the cat and mosue cartoon
-* My game is basically based on a shooting game where tom and jerry battle it out to a score of 3 where you can choose solo or multiplayer depending on your preferance
+* Tom and Jerry im pretty sure a lot of us are familiar with the cat and mosue cartoon or jsut cartoons in general 
+* My game is basically based on a shooting game where tom and jerry battle it out to a score of 3 where you can choose solo trying to reach a falg and dodge obstacles or multiplayer depending on your preferance
 
 ## Product
-* Showing off the map that I created with all the obstacles
+* Showing off the map that I created with all the obstacles and how each part of the map corresponds to a specific shape
+* Do some sort of small demo of the shooting part of my code and the invulnerability once the bullet hits an enemny so I can show it to the audeince 
+* I will show off the laod spirte parts and the problems that I faced while tryring to laod the sprites on the page
+* I will put a link to my project in the slides like a yellkey to see who wants to try it out and play 
 
 ## Process
-* 
+* I will show an example of a map that I took from the kaboom website and compare it to the one that I have now like a split side
+* Showing them the code snippet of where I created like the invulnerability part breaking it down part by part and what each step does
+* I will show the actual code snippet of the laod sprites with the mouse and cat png along with a comaprison like side by side of what it looked like in hte beginnign which didnt work and what I did after that did work 
 
 ## Conclusion
-* 
+* Takeaways: Spending more time planning out the actual project before you start and how you want it because when I started working on it I felt pretty lost and I was randomly doing one part at a time, along with being rushed and making a rushed product
+* Peer feedback: taking in suggestions from peers to try and improve your game beause at first my game it was only able to shoot in one direction and when my peers played it, this was kind of annoying as they were only able to shoot in one direction and not the back
+* End off with a thank you slide and saying it
 
 <!-- EXAMPLE
 
