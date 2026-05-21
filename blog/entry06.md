@@ -10,6 +10,13 @@ After finishing Blog 5 where we jsut finished the MVP and did some of the beyond
 
 
 
+---
+
+
+# Engineering Design process
+
+
+
 
 [Previous](entry05.md) | [Next](entry07.md)
 
