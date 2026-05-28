@@ -7,7 +7,7 @@ After finishing Blog 5 where we jsut finished the MVP and did some of the beyond
 ---
 
 # Expo Reflection
-
+After finishing the expo I felt very relivied in a way that it was all over and we finished all our work. There was a lot of presenting and I felt like a nervousness before when the judges were coming like a little anxious because I wanted to do at least decently well. I ran out of time but I got to the most important points of my project. I hooked them in saying how cartoons were being replaced by youtube shorts, tik tok, instagram and they all agreed with that. For all of the judges all of them havent wacthed a cartoon in a while since they were a child. From what I noticed with my hook only one person has actually watched a cartoon recently which I was not too surpirsed of. Overall I would say that I was less nervous when presenting to others and I felt I had more time to convey my project and show the overal strucutre than with the judges. Along with this also the timer got me a little nervous because last year I didn't see any of the judges carrying any timers or anything which suprised me and caught me off guard this year. 
 
 
 ---
