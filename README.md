@@ -35,7 +35,8 @@ The purpose of the blogs was to summarize the learning that we have done and the
   * Individual
     *  Can be used for training things like compex problem solving, reflexs to dodge bullets, and overall it can help improve boredom for a little
   *  Relationships
-    *  As this game        
+   * As this game incoperates multiplayer you may interact with whoever freely through the battles and build a bond or communication from just these small interactions
+   *         
  
 
 
