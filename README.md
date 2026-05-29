@@ -26,9 +26,31 @@ The purpose of the blogs was to summarize the learning that we have done and the
 
 ## Implications
 ##### PROS
-* 
+* **Global(Pros)**
+  * Big systems
+    * Inclusiviity where the multiplayer can connect people aroumd the world and they can play together honing skills such as competition and team work to get past the obstacles
+  * Environemnt
+    * As this is a online game it does not take any waste of materials or anything that would affect the enviornment such as chopping down wood or anything
+* **Social**
+  * Individual
+    *  Can be used for training things like compex problem solving, reflexs to dodge bullets, and overall it can help improve boredom for a little
+  *  Relationships
+    *  As this game        
+ 
+
+
+
+
+
+
+
+   
 ##### CONS
-* 
+* Global (Cons)
+  * Environemnt
+    * Charging you laptop or any device takes up electricity so your basically burning off fossil fuels as it uses electriccity to run or else it will die along with this after devices get old batteries and things will have to be decomposed and increases carbon footprints
+    * 
+
 
 
 ## Blog
