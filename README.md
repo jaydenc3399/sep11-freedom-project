@@ -10,6 +10,20 @@ I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering P
 
 [Presentation]()
 
+
+# Blog Content 
+The purpose of the blogs was to summarize the learning that we have done and the accomplishments that we made from the previous blog entry, so really adding on new things we did to contribute to out freedom project.
+
+---
+
+
+* **Blog 1**- Picking my Tool and topic along with some tinkering on onKeyPress
+* **Blog 2** - Tinkering with my tool and finding youtube videos on kaboom
+* **Blog 3** - Working on my tool over the winter break such as the timer and onCollide
+* **Blog 4** - Creating a checklist/plan of things I need to incorperate along with tinkering on free code camp, health bar.
+* **Blog 5** - Tinkering with addLevel along with finished MVP code related to the addLevel, full proof MVP done
+* **Blog 6** - Reflection of in class presenations of freedom project and reflection of SEP expo along with the improvements from beyond MVP  
+
 ## Implications
 ##### PROS
 * 
