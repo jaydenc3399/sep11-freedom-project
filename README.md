@@ -36,21 +36,29 @@ The purpose of the blogs was to summarize the learning that we have done and the
     *  Can be used for training things like compex problem solving, reflexs to dodge bullets, and overall it can help improve boredom for a little
   *  Relationships
    * As this game incoperates multiplayer you may interact with whoever freely through the battles and build a bond or communication from just these small interactions
-   *         
  
+* **Economic** 
+  * Jobs
+  * I would say my game could inspire others to just make a game itself and change their carrer path of what they thought they would be
+  * Filling up more jobs on game development and coding         
 
-
-
-
-
-
-
+--- 
    
 ##### CONS
-* Global (Cons)
+* **Global** (Cons)
   * Environemnt
     * Charging you laptop or any device takes up electricity so your basically burning off fossil fuels as it uses electriccity to run or else it will die along with this after devices get old batteries and things will have to be decomposed and increases carbon footprints
-    * 
+   * Big systems
+    * Things such as mental health systems where peope could get addicted to the game causing stress over their body  
+    * Less hours of resting/sleep for the body which could lead to sleep deprivation
+      
+* **Social**
+ * Relationships
+  * Addiction can lead to less time with parents and friends when playing my game if it gets addicting you start to pay attention less to the outside world
+  * can lead to break ups from less time spent with your partner or also ruin relationships, not hanging out with them
+ * Individual
+  *  Through playing my game you may not open up time for yourself to go outside and experience nature in a while which could lead to a shorter life span or more health problems, along with this headaches and stain on your eyesight
+  *   
 
 
 
