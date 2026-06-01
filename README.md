@@ -29,16 +29,16 @@ The purpose of the blogs was to summarize the learning that we have done and the
 * **Global(Pros)**
   * Big systems
     * Inclusiviity where the multiplayer can connect people aroumd the world and they can play together honing skills such as competition and team work to get past the obstacles
-  * Environemnt
+  * *Environemnt*
     * As this is a online game it does not take any waste of materials or anything that would affect the enviornment such as chopping down wood or anything
 * **Social**
-  * Individual
+  * *Individual*
     *  Can be used for training things like compex problem solving, reflexs to dodge bullets, and overall it can help improve boredom for a little
-  *  Relationships
+  *  *Relationships*
    * As this game incoperates multiplayer you may interact with whoever freely through the battles and build a bond or communication from just these small interactions
  
 * **Economic** 
-  * Jobs
+  * *Jobs*
   * I would say my game could inspire others to just make a game itself and change their carrer path of what they thought they would be
   * Filling up more jobs on game development and coding         
 
@@ -46,19 +46,25 @@ The purpose of the blogs was to summarize the learning that we have done and the
    
 ##### CONS
 * **Global** (Cons)
-  * Environemnt
+  * *Environemnt*
     * Charging you laptop or any device takes up electricity so your basically burning off fossil fuels as it uses electriccity to run or else it will die along with this after devices get old batteries and things will have to be decomposed and increases carbon footprints
-   * Big systems
+   * *Big systems*
     * Things such as mental health systems where peope could get addicted to the game causing stress over their body  
     * Less hours of resting/sleep for the body which could lead to sleep deprivation
-      
 * **Social**
- * Relationships
+ * *Relationships*
   * Addiction can lead to less time with parents and friends when playing my game if it gets addicting you start to pay attention less to the outside world
   * can lead to break ups from less time spent with your partner or also ruin relationships, not hanging out with them
- * Individual
+ * *Individual*
   *  Through playing my game you may not open up time for yourself to go outside and experience nature in a while which could lead to a shorter life span or more health problems, along with this headaches and stain on your eyesight
-  *   
+  *  Become detached from the world and always glued onto the screen, not even taking a break to eat food through gaming addiction
+*  *Economic*
+ *  jobs
+   * My game cause cause people to stay glued to the screen and not even go look for jobs
+   * May cause distraction in work places as you always find a time where you do work to pay games
+   * Lead to being let go from the job
+ * *Infastructure*
+  * the overusage of devices puts strain on local power grids and straining data networks
 
 
 
