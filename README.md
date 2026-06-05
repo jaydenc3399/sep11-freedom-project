@@ -8,7 +8,7 @@ I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering P
 
 [Product]()
 
-[Presentation]()
+[Presentation](https://docs.google.com/presentation/d/1-ibo1jiw1pskTegbg5fLvXdKUenYDnczPWgKgg9E0j4/edit)
 
 
 # Blog Content
