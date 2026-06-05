@@ -12,7 +12,7 @@ I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering P
 
 
 # Blog Content
-The purpose of the blogs was to summarize the learning that we have done and the accomplishments that we made from the previous blog entry, so really adding on new things we did to contribute to out freedom project.
+The purpose of the blogs was to summarize the learning that we have done and the accomplishments that we made from the previous blog entry, so really adding on new things we did to contribute to our freedom project.
 
 ---
 
