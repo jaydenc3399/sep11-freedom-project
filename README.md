@@ -6,7 +6,7 @@ I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering P
 
 ## Links
 
-[Product]()
+[Product](https://jaydenc3399.github.io/sep11-freedom-project/)
 
 [Presentation](https://docs.google.com/presentation/d/1-ibo1jiw1pskTegbg5fLvXdKUenYDnczPWgKgg9E0j4/edit)
 
